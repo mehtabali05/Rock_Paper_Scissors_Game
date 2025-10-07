@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#gameName{
+    color: White;
+    background-color: #081b31;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+
+
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.choice:hover{
+    cursor: pointer;
+    /* opacity: 0.5; */
+    background-color: black;
+}
+
+.img{
+    width: 155px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+.scoreBoard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 5rem;
+    font-size: 2rem;
+}
+
+
+#userScore,#computerScore{
+    font-size: 5rem;
+}
+
+
+
+.LooseOrWinMessage{
+    margin-top: 3rem;
+}
+
+#msg{
+    background-color: #081b31;
+    color: #fff;
+    display: inline;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
